@@ -1,1 +1,10 @@
 /venv
+etl/.venv/
+__pycache__/
+*.pyc
+
+data/raw/
+data/tmp/
+data/h3/
+data/admin/
+data/client/
