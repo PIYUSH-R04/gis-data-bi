@@ -77,3 +77,16 @@ runtime:
   threads: 4
   chunk_mb: 128
   temp_dir: "../data/tmp"
+
+sources:
+  chirps_monthly:
+    template_by_year: "https://data.chc.ucsb.edu/products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.{YYYY}.monthly.nc"
+    alt_whole_series: "https://data.chc.ucsb.edu/products/CHIRPS-2.0/global_monthly/netcdf/chirps-v2.0.monthly.nc"
+    format: "netcdf"
+
+  modis_ndvi_monthly:
+    expected_ext: ".tif"
+  modis_fire_monthly:
+    expected_ext: ".csv"
+  viirs_nl_monthly:
+    expected_ext: ".tif"   
