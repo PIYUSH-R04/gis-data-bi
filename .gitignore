@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+node_modules/
+data/raw/
+data/interim/
+data/tiles_cache/
+*.log
+.env
